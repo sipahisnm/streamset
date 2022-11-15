@@ -20,7 +20,7 @@ Start the pipeline and monitor the results.
 
 ![image](https://user-images.githubusercontent.com/75900861/201968255-89d25efc-c7a3-4702-8e32-52263d5ad38f.png)
 
-Extended Tutorial
+##Extended Tutorial##
 The extended tutorial builds on the basic tutorial, using an additional set of stages to perform some data transformations and write to the Trash development destination. We'll also use data preview to test stage configuration.
 
 You can write to a real destination instead of the Trash destination. The Trash destination allows you to run the pipeline without writing to a real destination system.
