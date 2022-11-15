@@ -8,15 +8,25 @@ Basic Tutorial
 The basic tutorial creates a pipeline that reads a file from a directory, processes the data in two branches, and writes all data to a file system. You'll use data preview to help configure the pipeline, and you'll create a data alert and run the pipeline.
 
 Here are high level steps for building and running the basic pipeline:
+
 Configure pipeline properties, primarily error handling.
+
 Add a Directory origin to represent the data to be processed.
+
 Preview source data to determine the field-level details needed for the pipeline.
+
 Use a Stream Selector to route credit card transactions to the primary branch and cash transactions to the secondary branch. We'll define a required field to discard records without a payment type.
+
 Configure a Jython Evaluator to perform custom processing that determines the credit card type based on the credit card number.
+
 Add a Field Masker to mask credit card numbers. Use a required field to discard records without credit card numbers.
+
 Connect both branches to a Local FS destination.
+
 In the secondary branch, use an Expression Evaluator to add fields to the cash records to match the credit card records. Use data preview to verify the fields to add.
+
 Add a data rule to raise an alert if too many credit card payments are missing credit card numbers.
+
 Start the pipeline and monitor the results.
 
 ![image](https://user-images.githubusercontent.com/75900861/201968255-89d25efc-c7a3-4702-8e32-52263d5ad38f.png)
