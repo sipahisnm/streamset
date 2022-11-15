@@ -38,19 +38,16 @@ The extended tutorial builds on the basic tutorial, using an additional set of s
 You can write to a real destination instead of the Trash destination. The Trash destination allows you to run the pipeline without writing to a real destination system.
 
 The extended tutorial continues with the following steps:
+
 Configure a Field Type Converter to convert field types.
+
 Manipulate data with the Expression Evaluator.
+
 Use data preview to test and update pipeline configuration.
+
 Complete the pipeline with the placeholder Trash destination.
+
 Reset the origin and run the extended pipeline.
+
 ![image](https://user-images.githubusercontent.com/75900861/201968618-cc2cc564-bfba-4fd5-b046-8debfd1f210e.png)
 
-
-
-Installation: https://docs.streamsets.com/portal/datacollector/3.22.x/help/datacollector/UserGuide/Installation/InstallationAndConfig.html...
-Installation requirements: https://docs.streamsets.com/portal/datacollector/3.22.x/help/datacollector/UserGuide/Installation/InstallationAndConfig.html#concept_vzg_n2p_kq
-Tutorial overview: https://docs.streamsets.com/portal/datacollector/3.22.x/help/datacollector/UserGuide/Tutorial/Overview.html
-Before you begin (please see the link below for the sample data): https://docs.streamsets.com/portal/datacollector/3.22.x/help/datacollector/UserGuide/Tutorial/BeforeYouBegin.html...
-You can download sample data via the following link: https://www.streamsets.com/documentation/datacollector/sample_data/tutorial/nyc_taxi_data.csv
-Basic tutorial: https://docs.streamsets.com/portal/datacollector/3.22.x/help/datacollector/UserGuide/Tutorial/BasicTutorial.html
-Extended tutorial: https://docs.streamsets.com/portal/datacollector/3.22.x/help/datacollector/UserGuide/Tutorial/ExtendedTutorial.html
